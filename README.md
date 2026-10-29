@@ -12,7 +12,7 @@ Features
 - A search bar to find sightings by location or tick species.
 - An interactive map showing sightings.
 - A chart to display data.
-- A form for reporting tick sightings.
+- A form for reporting tick sightings with drop downs and date/time dropdowns.
 - A tick guide with information and prevention tips.
 
 Technologies used
