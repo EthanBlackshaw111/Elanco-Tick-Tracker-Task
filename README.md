@@ -1,16 +1,71 @@
-# React + Vite
+Elanco Tick Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Author: Ethan Blackshaw
 
-Currently, two official plugins are available:
+About the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This is a tick tracker website that lets users view tick sightings and look at where they have been found. It includes a search bar, a map and a chart to make it easier to explore the data.
 
-## React Compiler
+Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A table showing tick sightings.
 
-## Expanding the ESLint configuration
+A search bar to find sightings by location or tick species.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+An interactive map showing sightings.
+
+A chart to display data.
+
+A form for reporting tick sightings.
+
+A tick guide with information and prevention tips.
+
+Technologies used
+
+React and JavaScript for building the website and making it interactive.
+
+Vite to run the website during development.
+
+React Leaflet and Leaflet for the map.
+
+Chart.js for the chart.
+
+CSS for styling the website.
+
+Design choices
+
+I used React because the website has several interactive features. React state allows parts of the website to update when the user searches or interacts with different features.
+
+The website gets tick sighting data from an API using fetch(). The response is converted from JSON into data that JavaScript can use.
+
+I used JavaScript's filter() function to find sightings that match the search. The map() function is then used to display the results in the table.
+
+I used React Leaflet for the interactive map and Chart.js to display the data as a chart.
+
+How to run the project
+
+You will need Node.js and npm installed.
+
+Download or clone this repository from GitHub.
+
+Open a terminal in the project folder.
+
+Install the dependencies by running:
+
+npm install
+
+Start the website using:
+
+npm run dev
+
+Open the local address shown in the terminal.
+
+The website may also need access to the API used to retrieve the tick sighting data.
+
+Limitations
+
+The report form currently stores submitted reports in the website's state rather than permanently saving them to a database. This means reports can be lost when the page is refreshed.
+
+Author
+
+Ethan Blackshaw
