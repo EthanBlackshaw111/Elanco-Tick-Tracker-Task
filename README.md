@@ -53,3 +53,4 @@ Open the local address shown in the terminal in a web browser.
 Limitations
 
 The report form currently stores submitted reports in the website's state rather than permanently saving them to a database. This means reports can be lost when the page is refreshed.
+If I had more time I would have implemented a navbar for the page instead of using modals and cluttering everything together in one page, this would not only look better for the user but also be formatted better for other developers to work upon the files.
