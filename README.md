@@ -21,8 +21,7 @@ Technologies used
 - Vite to run the website during development.
 - React Leaflet and Leaflet for the map.
 - Chart.js for the chart.
-
-CSS for styling the website.
+- CSS for styling the website.
 
 Design choices
 
