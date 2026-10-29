@@ -30,6 +30,7 @@ The website gets tick sighting data from an API using fetch(). The response is c
 I used JavaScript's filter() function to find sightings that match the search. The map() function is then used to display the results in the table.
 I used React Leaflet for the interactive map and Chart.js to display the data as a chart.
 
+
 How to run the project
 
 You will need Node.js and npm installed.
@@ -46,9 +47,8 @@ Start the website using:
 
 npm run dev
 
-Open the local address shown in the terminal.
+Open the local address shown in the terminal in a web browser.
 
-The website may also need access to the API used to retrieve the tick sighting data.
 
 Limitations
 
